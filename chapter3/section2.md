@@ -132,6 +132,8 @@ Mysql开始推送Binaly Log
 
 mysql的Binlay Log网络协议：
 
+![](/cancel_protecl.png)
+
 说明：
 
 图中的协议4byte header，主要是描述整个binlog网络包的length
@@ -261,7 +263,7 @@ Header
 
 entryType   \[事务头BEGIN/事务尾END/数据ROWDATA\]  
 
-storeValue  \[byte数据,可展开，对应的类型为RowChange\]  
+storeValue  \[byte数据,可展开，对应的类型为RowChange\]
 ```
 
 RowChange
@@ -275,7 +277,7 @@ rowDatas    \[具体insert/update/delete的变更数据，可为多条，1个bin
 
     beforeColumns \[Column类型的数组\]  
 
-    afterColumns \[Column类型的数组\]  
+    afterColumns \[Column类型的数组\]
 ```
 
 Column
@@ -293,7 +295,7 @@ updated     \[是否发生过变更\]
 
 isNull      \[值是否为null\]  
 
-value       \[具体的内容，注意为文本\]  
+value       \[具体的内容，注意为文本\]
 ```
 
 说明：
