@@ -316,6 +316,8 @@ value       \[具体的内容，注意为文本\]
 
 HA机制设计
 
+![](/cancel_ha.jpg)
+
 canal的ha分为两部分，canal server和canal client分别有对应的ha实现
 
 canal server:  为了减少对mysql dump的请求，不同server上的instance要求同一时间只能有一个处于running，其他的处于standby状态.
