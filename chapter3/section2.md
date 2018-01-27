@@ -174,6 +174,8 @@ EventStore设计
 
 RingBuffer设计：
 
+![](/ring.jpg)
+
 定义了3个cursor
 
 Put :  Sink模块进行数据存储的最后一次写入位置
