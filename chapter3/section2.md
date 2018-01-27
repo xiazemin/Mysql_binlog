@@ -194,6 +194,8 @@ buffer的get操作，通过取余或者与操作。\(与操作： cusor & \(size
 
 Instance设计
 
+![](/instance.jpg)
+
 instance代表了一个实际运行的数据队列，包括了EventPaser,EventSink,EventStore等组件。
 
 抽象了CanalInstanceGenerator，主要是考虑配置的管理方式：
