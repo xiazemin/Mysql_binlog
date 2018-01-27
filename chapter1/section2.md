@@ -86,7 +86,7 @@ master节点只有一个且可读可写，slave节点有多个且只可以读。
     将db库拆分为db\_0和db\_1两个库，db\_0中包含user\_0、user\_1两个分表，db\_1中包含user\_2、user\_3两个分表。下图演示了在分库分表的情况下，数据是如何拆分的：假设db库的user表中原来有4000W条数据，现在将db库拆分为2个分库db\_0和db\_1，user表拆分为user\_0、user\_1、user\_2、user\_3四个分表，每个分表存储1000W条数据。
 ```
 
-Image.png
+![](/db_partition.png)
 
 分库的好处：
 
