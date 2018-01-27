@@ -52,6 +52,8 @@ mysql-&gt;mysql、oracle. \(目前开原版只支持mysql增量，目标库可�
 
 单机房复制示意图
 
+![](/otter_syn.png)
+
 说明：
 
 * 数据On-Fly, 尽可能不落地，更快的进行数据同步。（开启node load balance算法, 如果Node节点S+ETL落在不同的Node上，数据会有个网络传输过程）
