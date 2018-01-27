@@ -26,6 +26,8 @@ MyCAT自身有类似其他数据库的管理监控方式，可以通过MySQL命�
 
 HA
 
+![](/mycat_proxy.png)
+
 MyCAT作为一个代理层中间件，MyCAT系统的高可用设计到MyCAT本身的高可用以及后端MySQL的高可用. 在多数情况下，建议采用MySQL主从复制高可用性配置并交付给MyCAT来完成后端MySQL节点的主从自动切换。
 
 MySQL侧的HA
