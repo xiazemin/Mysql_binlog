@@ -206,6 +206,8 @@ spring方式：基于spring xml + properties进行定义，构建spring配置.
 
 Server设计
 
+![](/server.jpg)
+
 server代表了一个canal的运行实例，为了方便组件化使用，特意抽象了Embeded\(嵌入式\) / Netty\(网络访问\)的两种实现
 
 Embeded :  对latency和可用性都有比较高的要求，自己又能hold住分布式的相关技术\(比如failover\)
