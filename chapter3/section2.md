@@ -216,6 +216,8 @@ Netty :  基于netty封装了一层网络协议，由canal server保证其可用
 
 增量订阅/消费设计
 
+![](/patch.jpg)
+
 具体的协议格式，可参见：CanalProtocol.proto
 
 get/ack/rollback协议介绍：
