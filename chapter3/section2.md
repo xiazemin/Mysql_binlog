@@ -142,6 +142,8 @@ binlog event structure，详细信息请参考： [http://dev.mysql.com/doc/inte
 
 EventSink设计
 
+![](/eventsink.jpg)
+
 说明：
 
 数据过滤：支持通配符的过滤模式，表名，字段内容等
