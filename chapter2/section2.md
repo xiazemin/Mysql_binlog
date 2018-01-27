@@ -76,6 +76,8 @@ L: Load
 
 跨机房复制示意图
 
+![](/mysql_ab.png)
+
 数据涉及网络传输，S/E/T/L几个阶段会分散在2个或者更多Node节点上，多个Node之间通过zookeeper进行协同工作（一般是Select和Extract在一个机房的Node, Transform/Load落在另一个机房的Node）
 
 node节点可以有failover/loadBalancer。\(每个机房的Node节点，都可以是集群，一台或者多台机器\)
